@@ -8,6 +8,7 @@ try:
     a = int(input("Enter first number: "))
     b = int(input("Enter second number: "))
 
+    print("\n--- Calculator Results ---")
     print("Addition:", add(a, b))
     print("Subtraction:", subtract(a, b))
     print("Multiplication:", multiply(a, b))
